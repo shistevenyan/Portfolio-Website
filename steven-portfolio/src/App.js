@@ -1,21 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import Typical from 'react-typical';
+import React from "react";
+
+import Home from './home';
+import About from './about';
+import Projects from './projects';
+import Contact from './contact';
+import Navbar from './nav';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-  
-        <h1> Welcome <span className="wave" >👋</span>😄 </h1>
-                 
-        <Typical
-          loop={1}
-          wrapper='h4'
-          steps={['My name is Steven Yan.']}
-        />
-
-      </header>
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
 }
