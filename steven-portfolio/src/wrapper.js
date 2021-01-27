@@ -6,12 +6,15 @@ const WrapperStyled = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: normal;
   h1 {
-    font-size: 45px;
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 50px;
   }
   p {
-    font-size: 22px;
+    font-size:40px;
   }
 `;
 

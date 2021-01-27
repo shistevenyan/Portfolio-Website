@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -6,6 +8,25 @@ html {
 
 .App {
   text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.home-section {
+  height: 100vh;
+}
+
+.projects-section {
+  height: 100vh;
+}
+
+.contact-section {
+  height: 100vh;
 }
 
 .App-header {
@@ -37,26 +58,18 @@ html {
 }
 
 h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
 }
 
 h4 {
   font-family: 'Inter', sans-serif;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
-  background: black;
-  color: white;
-}
-
-.nav-links {
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }

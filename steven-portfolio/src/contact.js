@@ -1,21 +1,16 @@
-import React from "react";
-import styled from "styled-components";
-import Wrapper from "./wrapper";
-const Section1Styled = styled.div`background-color: white;`;
+import React, { Component } from "react";
 
-function Contact() {
-    return (
-        <Section1Styled id="contact">
-            <Wrapper>
-                <h1>Contact</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat blanditiis adipisci eaque animi repellat
-                    atque assumenda corporis quidem nostrum ea, nulla qui cupiditate suscipit, quisquam voluptas mollitia ex iusto
-                    voluptates.
-        </p>
-            </Wrapper>
-        </Section1Styled>
-    )
+class Contact extends Component {
+    state = {};
+    render() {
+        return (
+            <div className="contact-section" id="contact">
+                <h1>Hey, what's up? <span className="wave" >👋</span>😄</h1>
+                <p> I'm Steven Yan.<br></br>A Software Engineer with a <br></br> Passion for UI/UX Design based in<br></br>Edmonton, Alberta.  </p>
+            </div>
+        );
+    }
+
 }
 
 export default Contact;

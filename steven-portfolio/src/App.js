@@ -1,23 +1,22 @@
+import React, { Component } from "react";
 import './App.css';
-import React from "react";
 
+import Navbar from './nav';
 import Home from './home';
-import About from './about';
 import Projects from './projects';
 import Contact from './contact';
-import Navbar from './nav';
 
-
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Navbar />
+        <Home />
+        <Projects />
+        <Contact />
+      </div>
+    );
+  }
 }
 
 export default App;
