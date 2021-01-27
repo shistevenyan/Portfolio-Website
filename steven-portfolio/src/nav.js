@@ -47,12 +47,6 @@ class Navbar extends Component {
           </ul>
         </div>
       </nav>
-
-      // <div className="navbar" id="navbar">
-      //   <a href="#home">Home</a>
-      //   <a href="#projects">Projects</a>
-      //   <a href="#contact">Contact</a>
-      // </div>
     );
   }
 }

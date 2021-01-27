@@ -5,8 +5,7 @@ class Contact extends Component {
     render() {
         return (
             <div className="contact-section" id="contact">
-                <h1>Hey, what's up? <span className="wave" >👋</span>😄</h1>
-                <p> I'm Steven Yan.<br></br>A Software Engineer with a <br></br> Passion for UI/UX Design based in<br></br>Edmonton, Alberta.  </p>
+                <h3>Contact Me</h3>
             </div>
         );
     }
