@@ -5,16 +5,26 @@ import Navbar from './nav';
 import Home from './home';
 import Projects from './projects';
 import Contact from './contact';
+import { setConfiguration, Container, Row, Col } from 'react-grid-system';
+
+setConfiguration({ maxScreenClass: 'xl' });
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <Container className="App">
         <Navbar />
-        <Home />
-        <Projects />
-        <Contact />
-      </div>
+        <Row>
+          <Home />
+        </Row>
+        <Row>
+          <Projects />
+        </Row>
+        <Row>
+          <Contact />
+        </Row>
+      </Container>
     );
   }
 }
