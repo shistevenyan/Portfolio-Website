@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+.App {
+  text-align: left;
+}
+
+:root {
+  --off-white: #fafafa;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 6.5em;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 4em;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 4em;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size:1.5em;
+  color: grey;
+}
+
+p.home-context {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: grey;
+  width: 63.5%;
+}
+
+p.projects-context {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: grey;
+}
+
+p.contact-context {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: grey;
+}
