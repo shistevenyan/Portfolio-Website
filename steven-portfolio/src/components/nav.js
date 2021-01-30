@@ -5,6 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import { scroller } from "react-scroll";
 import logo from "../styles/logo.svg";
 import '../styles/nav.scss';
+import Fade from 'react-reveal/Fade';
 
 
 class Navbar extends Component {
@@ -19,12 +20,14 @@ class Navbar extends Component {
       <div className="navbar-wrapper">
         <BSNavbar collapseOnSelect expand="sm">
           <BSNavbar.Brand className="logo">
-            <img
-              src={logo}
-              className="nav-logo"
-              alt="Logo"
-              onClick={this.scrollToTop}
-            />
+            <Fade top delay={2500}>
+              <img
+                src={logo}
+                className="nav-logo"
+                alt="Logo"
+                onClick={this.scrollToTop}
+              />
+            </Fade>
           </BSNavbar.Brand>
           <BSNavbar.Toggle aria-controls="responsive-navbar-nav" />
           <BSNavbar.Collapse id="responsive-navbar-nav">
@@ -37,7 +40,7 @@ class Navbar extends Component {
                   duration: 500,
                 })}
               >
-                Projects
+                <Fade top delay={2500}>Projects</Fade>
               </Nav.Link>
 
               <Nav.Link
@@ -47,7 +50,7 @@ class Navbar extends Component {
                   duration: 500,
                 })}
               >
-                Contact
+                <Fade top delay={2500}>Contact</Fade>
               </Nav.Link>
 
             </Nav>
