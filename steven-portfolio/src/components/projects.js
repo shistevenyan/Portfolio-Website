@@ -19,13 +19,13 @@ class Projects extends Component {
                     <Col sm={12}>
                         <Fade delay={200}>
                             <h2>Projects 🖥️</h2>
-                            <br></br>
                         </Fade>
                     </Col> 
                 </Row>
                 <Row>
                     <Col sm={4}>
                         <Fade bottom delay={400}>
+                            <br></br>
                             <h4>PeppeR Recommender</h4>
                             <p className="projects-context">
                                 The PeppeR Recommender is a discussion recommender for the PeppeR Project, a collaborative learning environment 
@@ -33,11 +33,13 @@ class Projects extends Component {
                                 Alberta. This project was made using a LAMP stack (Linux, Apache, MySQL, PHP) environment.
                             </p>
                             <a href="https://github.com/shistevenyan" target="_blank" className="projectLink"><VscLinkExternal /></a>
+                            <br></br>
                         </Fade>
                     </Col>
 
                     <Col sm={4}>
                         <Fade bottom delay={600}>
+                            <br></br>
                             <h4>YeggerStop</h4>
                             <p className="projects-context">
                                 YeggerStop is a web application for the Edmonton Transit System. YeggerStop tells you the nearby bus stops along with their 
@@ -45,11 +47,13 @@ class Projects extends Component {
                                 bus stops. This project is coded using a LAMP stack (Linux, Apache, MySQL, PHP) environment.
                             </p>
                             <a href="https://github.com/shistevenyan" target="_blank" className="projectLink"><VscLinkExternal /></a>
+                            <br></br>
                         </Fade>
                     </Col>
 
                     <Col sm={4}>
                         <Fade bottom delay={800}>
+                            <br></br>
                             <h4>Fooend</h4>
                             <p className="projects-context">
                                 Fooend is an Android app that connects users with similar tastes in food and allows them to meet up for a meal. Currently, 
