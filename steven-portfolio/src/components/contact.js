@@ -12,26 +12,36 @@ class Contact extends Component {
         return (
             <Container fluid className="contact-section" id="contact">
                 <Row>
-                    <h2>Contact</h2>
-                </Row>
-                <Row style={{'text-align': 'center'}}>
-                    <li className="contact-item">
-                        < AiFillGithub />
-                    </li>
-                    <li className="contact-item">
-                        < AiFillLinkedin />
-                    </li>
-                    <li className="contact-item">
-                        < MdEmail />
-                    </li>
+                    <Col md={12}>
+                        <h2>Contact</h2>
+                    </Col>
+                    
                 </Row>
                 <Row>
-                    <p className="contact-context">
-                    I am always looking for new opportunities so don't be afraid to shoot me
-                    a message through my email or LinkedIn! I check both platforms frequently
-                    so I will try my best to get back at you as fast as I can! Also come look
-                    my Github to check out what recent projects I am working on!
-                    </p>
+                    <Col md={12}>
+                        <p className="contact-context">
+                            <br></br>
+                            I am always looking for new opportunities so don't be afraid to shoot me
+                            a message through my email or LinkedIn. I check both platforms frequently
+                            so I will try my best to get back at you as fast as I can. If you want, come look
+                            my Github to check out what projects I am working on recently.
+                            <br></br>
+                            <br></br>
+                        </p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12} sm={12} style={{ 'text-align': 'center' }}>
+                        <li className="contact-item">
+                            < AiFillGithub />
+                        </li>
+                        <li className="contact-item">
+                            < AiFillLinkedin />
+                        </li>
+                        <li className="contact-item">
+                            < MdEmail />
+                        </li>
+                    </Col>
                 </Row>
 
 

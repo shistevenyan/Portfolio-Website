@@ -1,17 +1,24 @@
 .home-section {
-  height: 100vh;
+  margin-top: 10%;
+  margin-bottom: 5%;
+
 }
 
 .scrollProject {
-  position: absolute;
-  left: 50%;
-  margin-left: -75px;
-  width: 150px;
-  height: 50px;
+  position: relative;
+  width: 8em;
+  height: 2.5em;
   background-color: #333;
+  font-size: 1em;
   color: white;
   text-align: center;
   border: 2px solid black;
+  @media screen and (max-width: 576px) {
+    width: 7em;
+    height: 2em;
+    font-size: 0.8em;
+  }
+
 }
 
 .scrollProject:hover {

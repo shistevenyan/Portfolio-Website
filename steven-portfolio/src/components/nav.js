@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import logo from "../styles/logo.svg";
+import { default as BSNavbar } from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { scroller } from "react-scroll";
+import logo from "../styles/logo.svg";
 import '../styles/nav.scss';
 
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
 
 class Navbar extends Component {
   state = {};
@@ -14,45 +14,46 @@ class Navbar extends Component {
     scroll.scrollToTop();
   };
 
-  render() {
+  render(){
     return (
-      <nav className="nav" id="navbar">
-        <div className="nav-content">
-          <img
-            src={logo}
-            className="nav-logo"
-            alt="Logo"
-            onClick={this.scrollToTop}
-          />
-          <ul className="nav-items">
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="projects"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
+      <div className="navbar-wrapper">
+        <BSNavbar collapseOnSelect expand="sm">
+          <BSNavbar.Brand className="logo">
+            <img
+              src={logo}
+              className="nav-logo"
+              alt="Logo"
+              onClick={this.scrollToTop}
+            />
+          </BSNavbar.Brand>
+          <BSNavbar.Toggle aria-controls="responsive-navbar-nav" />
+          <BSNavbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto"></Nav>
+            <Nav>
+              <Nav.Link
+                onClick={() => scroller.scrollTo('projects', {
+                  smooth: true,
+                  offset: 0,
+                  duration: 500,
+                })}
               >
                 Projects
-            </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
+              </Nav.Link>
+
+              <Nav.Link
+                onClick={() => scroller.scrollTo('contact', {
+                  smooth: true,
+                  offset: 0,
+                  duration: 500,
+                })}
               >
                 Contact
-            </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+              </Nav.Link>
 
+            </Nav>
+          </BSNavbar.Collapse>
+        </BSNavbar>
+      </div>
     );
   }
 }

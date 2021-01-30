@@ -3,16 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 .contact-section {
-  height: 100vh;
+  margin-bottom: 35%;
 }
 
 .contact-item {
   display: inline;
+  text-align: center;
   margin-right: 2.5rem;
   margin-left: 2.5rem;
   color: #333;
-  font-family: 'Inter', sans-serif;
-  font-size: 40px;
+  font-size: 3em;
   list-style: none;
 
 }

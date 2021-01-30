@@ -9,11 +9,17 @@ class Projects extends Component {
     render() {
         return (
             <Container className="projects-section" id="projects" fluid={true}>
-                <Row> 
-                    <h2>Projects</h2>
+                <Row>
+                    <Col className="project-space">
+                        <div></div>
+                    </Col>
+                    <Col sm={12}>
+                        <h2>Projects</h2>
+                    </Col> 
+                    
                 </Row>
                 <Row>
-                    <Col>
+                    <Col sm={4}>
                         <h4>PeppeR Recommender</h4>
                         <p className="projects-context">
                             A discussion recommender for the PeppeR Project, a collaborative learning environment for students. This was
@@ -21,7 +27,7 @@ class Projects extends Component {
                             was coded using a LAMP (Linux, Apache, MySQL, PHP) environment.
                         </p>
                     </Col>
-                    <Col>
+                    <Col sm={4}>
                         <h4>YeggerStop</h4>
                         <p className="projects-context">
                             A webapp for Edmonton Transit System that tells you nearby bus stops along with their respective bus routes 
@@ -29,7 +35,7 @@ class Projects extends Component {
                             is coded using a LAMP (Linux, Apache, MySQL, PHP) environment.
                         </p>
                     </Col>
-                    <Col>
+                    <Col sm={4}>
                         <h4>Fooend</h4>
                         <p className="projects-context">
                             An Android app that connects users with similar tastes in food. Currently, this project is a Work in Progress 
