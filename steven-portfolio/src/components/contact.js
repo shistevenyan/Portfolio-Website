@@ -15,7 +15,7 @@ class Contact extends Component {
                 <Row>
                     <Col md={12}>
                         <Fade delay={200}>
-                            <h2>Contact</h2>
+                            <h2>Contact ☎️</h2>
                         </Fade>
                     </Col>
                     
@@ -37,16 +37,14 @@ class Contact extends Component {
                 </Row>
                 <Row>
                     <Col md={12} sm={12} style={{ 'text-align': 'center' }}>
-                        <Fade bottom delay={800}>
-                            <li className="contact-item">
-                                < AiFillGithub />
-                            </li>
-                            <li className="contact-item">
-                                < AiFillLinkedin />
-                            </li>
-                            <li className="contact-item">
-                                < MdEmail />
-                            </li>
+                        <Fade right delay={800}>
+                            <a href="https://github.com/shistevenyan" target="_blank" className="contact-item">< AiFillGithub /></a>
+                        </Fade>
+                        <Fade right delay={1000}>
+                            <a href="https://www.linkedin.com/in/shistevenyan/" target="_blank" className="contact-item">< AiFillLinkedin /></a>
+                        </Fade>
+                        <Fade right delay={1200}>
+                            <a href="mailto:ssyan@ualberta.ca" className="contact-item">< MdEmail /></a>
                         </Fade>
                     </Col>
                 </Row>

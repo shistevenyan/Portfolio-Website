@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import '../styles/home.scss';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link, animateScroll } from "react-scroll";
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -32,12 +32,12 @@ class Home extends Component {
                         <Col md={12}>
                             <p className="home-context">
                                 I am a Software Engineer based in Edmonton, Alberta. I recently graduated from the University of Alberta
-                                in Computer Science and am currently looking for new opportunities. I have a passion in UI/UX Design and
-                                Front-End Development. When designing, I prefer a minimalistic style, as you can probably tell. When
-                                relaxing, I enjoy playing video games, such as Genshin Impact or Valorant, and cooking.
+                                in Computer Science and am currently looking for new opportunities. I have a passion for UI/UX Design and
+                                Front-End Development. When designing interfaces, I prefer a minimalistic style, as you can probably tell. When
+                                relaxing, I enjoy playing video games (Genshin Impact or Valorant) and cooking.
                             <br />
                                 <br />
-                            Come check out what I been doing...
+                            Come check out what I've been doing! 👀
                             <br />
                                 <br />
                             </p>

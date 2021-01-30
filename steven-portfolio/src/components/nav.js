@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { default as BSNavbar } from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 import { scroller } from "react-scroll";
 import logo from "../styles/logo.svg";
 import '../styles/nav.scss';
@@ -20,7 +20,7 @@ class Navbar extends Component {
       <div className="navbar-wrapper">
         <BSNavbar collapseOnSelect expand="sm">
           <BSNavbar.Brand className="logo">
-            <Fade top delay={2500}>
+            <Fade top>
               <img
                 src={logo}
                 className="nav-logo"
@@ -40,7 +40,7 @@ class Navbar extends Component {
                   duration: 500,
                 })}
               >
-                <Fade top delay={2500}>Projects</Fade>
+                <Fade top>Projects</Fade>
               </Nav.Link>
 
               <Nav.Link
@@ -50,7 +50,7 @@ class Navbar extends Component {
                   duration: 500,
                 })}
               >
-                <Fade top delay={2500}>Contact</Fade>
+                <Fade top>Contact</Fade>
               </Nav.Link>
 
             </Nav>
