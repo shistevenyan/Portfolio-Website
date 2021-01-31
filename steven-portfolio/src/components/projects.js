@@ -26,11 +26,12 @@ class Projects extends Component {
                     <Col sm={4}>
                         <Fade bottom delay={400}>
                             <br></br>
-                            <h4>PeppeR Recommender</h4>
+                            <h4><span style={{"background-color": "#FFFF00"}}>PeppeR Recommender</span></h4>
                             <p className="projects-context">
-                                The PeppeR Recommender is a discussion recommender for the PeppeR Project, a collaborative learning environment 
-                                for students. I collaborated with Dr. Carrie Demmans Epp and the EdTeKLA Research Group from the University of 
-                                Alberta. This project was made using a LAMP stack (Linux, Apache, MySQL, PHP) environment.
+                                The PeppeR Recommender is a discussion recommender for the PeppeR Project, a <span style={{ "background-color": "#FFFF00" }}>collaborative learning environment 
+                                for students</span>. 
+                                I collaborated with Dr. Carrie Demmans Epp and the <span style={{ "background-color": "#FFFF00" }}>EdTeKLA Research Group</span> from the University of Alberta. 
+                                This project was made using a <span style={{ "background-color": "#FFFF00" }}>LAMP stack</span> (Linux, Apache, MySQL, PHP) environment.
                             </p>
                             <a href="https://github.com/shistevenyan" target="_blank" className="projectLink"><VscLinkExternal /></a>
                             <br></br>
@@ -40,11 +41,12 @@ class Projects extends Component {
                     <Col sm={4}>
                         <Fade bottom delay={600}>
                             <br></br>
-                            <h4>YeggerStop</h4>
+                            <h4><span style={{ "background-color": "#FFFF00" }}>YeggerStop</span></h4>
                             <p className="projects-context">
-                                YeggerStop is a web application for the Edmonton Transit System. YeggerStop tells you the nearby bus stops along with their 
-                                respective bus routes and arrival times. Currently, this project is a Work in Progress and only displays nearby 
-                                bus stops. This project is coded using a LAMP stack (Linux, Apache, MySQL, PHP) environment.
+                                YeggerStop is a web application for the <span style={{ "background-color": "#FFFF00" }}> Edmonton Transit System</span>. 
+                                YeggerStop tells you the nearby bus stops along with their respective bus routes and arrival times. Currently, this 
+                                project is a Work in Progress and only displays nearby bus stops. 
+                                This project is coded using a <span style={{ "background-color": "#FFFF00" }}>LAMP stack</span> (Linux, Apache, MySQL, PHP) environment.
                             </p>
                             <a href="https://github.com/shistevenyan" target="_blank" className="projectLink"><VscLinkExternal /></a>
                             <br></br>
@@ -54,11 +56,14 @@ class Projects extends Component {
                     <Col sm={4}>
                         <Fade bottom delay={800}>
                             <br></br>
-                            <h4>Fooend</h4>
+                            <h4><span style={{ "background-color": "#FFFF00" }}>Fooend</span></h4>
                             <p className="projects-context">
-                                Fooend is an Android app that connects users with similar tastes in food and allows them to meet up for a meal. Currently, 
-                                this project is a Work in Progress with some fellow University of Alberta CS classmates. It is currently in the design phase on 
-                                Figma. This project will be coded using the Android Studio environment. Look forward to new updates in mid-2021.
+                                Fooend is an <span style={{ "background-color": "#FFFF00" }}> Android app </span>
+                                that connects users with similar tastes in food and allows them to meet up for a meal. Currently, 
+                                this project is a Work in Progress with some fellow University of Alberta CS classmates. 
+                                It is currently in the <span style={{ "background-color": "#FFFF00" }}>design phase on Figma</span>. 
+                                This project will be coded using the <span style={{ "background-color": "#FFFF00" }}>Android Studio environment</span>. 
+                                Look forward to new updates in <span style={{ "background-color": "#FFFF00" }}>mid-2021</span>.
                             </p>
                             <a href="https://github.com/shistevenyan" target="_blank" className="projectLink"><VscLinkExternal /></a>
                         </Fade>
