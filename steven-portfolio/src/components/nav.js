@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { default as BSNavbar } from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { animateScroll as scroll } from "react-scroll";
-import { scroller } from "react-scroll";
+import { scroller, animateScroll as scroll } from "react-scroll";
 import logo from "../styles/logo.svg";
 import '../styles/nav.scss';
 import Fade from 'react-reveal/Fade';
