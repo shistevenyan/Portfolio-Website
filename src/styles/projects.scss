@@ -1,0 +1,49 @@
+.projects-section {
+  margin-bottom: 40%;
+
+}
+
+.project-space {
+  margin-top: 20%;
+}
+
+.scrollContact {
+  position: relative;
+  width: 8em;
+  height: 2.5em;
+  background-color: #333;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  border: 2px solid black;
+  @media screen and (max-width: 576px) {
+    width: 7em;
+    height: 2em;
+    font-size: 0.8em;
+  }
+
+}
+
+.scrollContact:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.projectLink {
+  display: inline;
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+  list-style: none;
+  
+  @media screen and (max-width: 576px) {
+  font-size: 1.5em;
+  }
+
+}
+
+.projectLink:hover {
+  color: black;
+  cursor: pointer;
+}
