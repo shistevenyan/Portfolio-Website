@@ -2,13 +2,18 @@ import React, { Component } from "react";
 import { default as BSNavbar } from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { scroller, animateScroll as scroll } from "react-scroll";
-import logo from "../styles/logo.svg";
+import logo from "../styles/websiteLogo.png";
 import '../styles/nav.scss';
 import Fade from 'react-reveal/Fade';
+import Pdf from "./ShiYanResume2021.pdf";
 
 
 class Navbar extends Component {
   state = {};
+
+  onResumeClick = () => {
+    window.open(Pdf);
+  }
 
   scrollToTop = () => {
     scroll.scrollToTop();
@@ -50,6 +55,11 @@ class Navbar extends Component {
                 })}
               >
                 <Fade top>Contact</Fade>
+              </Nav.Link>
+
+              <Nav.Link href={Pdf} target="_blank"           
+              >
+                <Fade top>Resume</Fade>
               </Nav.Link>
 
             </Nav>
