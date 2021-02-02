@@ -13,7 +13,7 @@ class Home extends Component {
             <Container className="home-section" id="home" fluid={true}>
                 <Row>
                     <Col md={12}>
-                        <Fade>
+                        <Fade top delay={500}>
                             <h1>Hey, how's it going? <span className="wave" >👋</span>😄</h1>
                             <br></br>
                         </Fade>
