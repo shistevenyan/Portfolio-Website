@@ -40,10 +40,10 @@ class Home extends Component {
                                 <br />
                                 Come check out what I've been doing! 👀
                             <br />
-                                <br />
+                            <br />
                             </p>
 
-                            <Link
+                            {/* <Link
                                 activeClass="active"
                                 to="projects"
                                 spy={true}
@@ -52,7 +52,7 @@ class Home extends Component {
                                 duration={500}
                             >
                                 <button className="scrollProject">See Projects</button>
-                            </Link>
+                            </Link> */}
                         </Col>        
                     </Fade>
                 </Row>

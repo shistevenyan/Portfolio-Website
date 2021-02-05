@@ -70,7 +70,7 @@ class Projects extends Component {
                     </Col>
                 </Row>
 
-                <Row>
+                {/* <Row>
                     <Col>
                         <Fade bottom delay={1200}>
                             <br></br>
@@ -87,7 +87,7 @@ class Projects extends Component {
                             </Link>
                         </Fade>
                     </Col>
-                </Row>
+                </Row> */}
             </Container>
         );
     }
