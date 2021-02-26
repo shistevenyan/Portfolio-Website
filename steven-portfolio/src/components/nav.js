@@ -44,7 +44,7 @@ class Navbar extends Component {
                   duration: 500,
                 })}
               >
-                <Fade top>Projects</Fade>
+                <Fade top className="nav-text">Projects</Fade>
               </Nav.Link>
 
               <Nav.Link
@@ -54,12 +54,12 @@ class Navbar extends Component {
                   duration: 500,
                 })}
               >
-                <Fade top>Contact</Fade>
+                <Fade top className="nav-text">Contact</Fade>
               </Nav.Link>
 
               <Nav.Link href={Pdf} target="_blank"           
               >
-                <Fade top>Resume</Fade>
+                <Fade top className="nav-text">Resume</Fade>
               </Nav.Link>
 
             </Nav>

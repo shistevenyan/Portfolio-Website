@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import '../styles/home.scss';
-import { Link } from "react-scroll";
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';

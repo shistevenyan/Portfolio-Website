@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Fade from 'react-reveal/Fade';
-import { Link } from "react-scroll";
 import { VscLinkExternal } from "react-icons/vsc";
 
 class Projects extends Component {
@@ -33,7 +32,7 @@ class Projects extends Component {
                                 I collaborated with Dr. Carrie Demmans  Epp and the <span style={{ "background-color": "#FFFF00" }}>EdTeKLA Research Group</span> from the University of Alberta. 
                                 This project was created using a <span style={{ "background-color": "#FFFF00" }}>LAMP stack</span> (Linux, Apache, MySQL, PHP) environment.
                             </p>
-                            <a href="https://github.com/shistevenyan" target="_blank" className="projectLink"><VscLinkExternal /></a>
+                            <a href="https://pepperproject.ca/" target="_blank" className="projectLink"><VscLinkExternal /></a>
                             <br></br>
                         </Fade>
                     </Col>
@@ -43,7 +42,7 @@ class Projects extends Component {
                             <br></br>
                             <h4><span style={{ "background-color": "#FFFF00" }}>YeggerStop</span></h4>
                             <p className="projects-context">
-                                YeggerStop is a web application for <span style={{ "background-color": "#FFFF00" }}> Edmonton Transit System</span>. 
+                                YeggerStop is a web application for <span style={{ "background-color": "#FFFF00" }}> Edmonton Transit Systems</span>. 
                                 YeggerStop tells you the nearby bus stops along with their respective bus routes and live arrival times. This project 
                                 was used to learn how to create a <span style={{ "background-color": "#FFFF00" }}>Flask API </span> 
                                 and a <span style={{ "background-color": "#FFFF00" }}>React webapp</span>. The Flask API is hosted on Heroku and the webapp is deployed on Netlify.
@@ -60,7 +59,7 @@ class Projects extends Component {
                             <p className="projects-context">
                                 Fooend is an <span style={{ "background-color": "#FFFF00" }}> Android app </span>
                                 that connects users with similar tastes in food and allows them to meet up for a meal. Currently, 
-                                this project is a Work in Progress with some fellow University of Alberta CS classmates. 
+                                this project is a Work in Progress with fellow University of Alberta CS classmates. 
                                 It is currently in the <span style={{ "background-color": "#FFFF00" }}>design phase on Figma</span>. 
                                 This project will be coded using the <span style={{ "background-color": "#FFFF00" }}>Android Studio environment</span>. 
                                 Look forward to new updates in <span style={{ "background-color": "#FFFF00" }}>mid-2021</span>.
