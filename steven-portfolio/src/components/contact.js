@@ -28,7 +28,7 @@ class Contact extends Component {
                                 I am always looking for new opportunities so don't be afraid to shoot me
                                 a message through my <span style={{ "background-color": "#FFFF00" }}>email or LinkedIn</span>. 
                                 I check both platforms frequently so I will try my best to get back at you as fast as I can. 
-                                If you want, come look my <span style={{ "background-color": "#FFFF00" }}>Github</span> to check out what projects I am working on recently.
+                                If you want, come check out my <span style={{ "background-color": "#FFFF00" }}>Github</span> to see what projects I am working on.
                                 <br></br>
                                 <br></br>
                             </p>

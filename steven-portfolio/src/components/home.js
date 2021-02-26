@@ -31,7 +31,7 @@ class Home extends Component {
                     <Fade bottom delay={2200}>
                         <Col md={12}>
                             <p className="home-context">
-                                I am a <span style={{ "background-color": "#FFFF00" }}>Software Engineer</span> based in Edmonton, Alberta. 
+                                I am a <span style={{ "background-color": "#FFFF00" }}>Software Developer</span> based in Edmonton, Alberta. 
                                 I recently graduated from the University of Alberta in Computer Science and am currently looking for new opportunities. 
                                 I have a passion for <span style={{ "background-color": "#FFFF00" }}> UI/UX Design and Front-End Development</span>. 
                                 When designing interfaces, I prefer a minimalistic style, as you can probably tell. When relaxing, I enjoy playing 
