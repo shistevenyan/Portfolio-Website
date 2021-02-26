@@ -38,7 +38,7 @@ class Home extends Component {
                                 video games (Genshin Impact or Valorant) and cooking.
                                 <br />
                                 <br />
-                                Come check out what I've been doing! 👀
+                                Come check out what I've been doing! 👀 👇
                             <br />
                             <br />
                             </p>
