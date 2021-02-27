@@ -47,7 +47,7 @@ class Projects extends Component {
                                 was used to learn how to create a <span style={{ "background-color": "#FFFF00" }}>Flask API </span> 
                                 and a <span style={{ "background-color": "#FFFF00" }}>React webapp</span>. The Flask API is hosted on Heroku and the webapp is deployed on Netlify.
                             </p>
-                            <a href="https://github.com/shistevenyan" target="_blank" className="projectLink"><VscLinkExternal /></a>
+                            <a href="https://yeggerstop.netlify.app/" target="_blank" className="projectLink"><VscLinkExternal /></a>
                             <br></br>
                         </Fade>
                     </Col>
