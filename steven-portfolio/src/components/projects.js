@@ -55,16 +55,16 @@ class Projects extends Component {
                     <Col sm={4}>
                         <Fade bottom delay={800}>
                             <br></br>
-                            <h4><span style={{ "background-color": "#FFFF00" }}>Fooend</span></h4>
+                            <h4><span style={{ "background-color": "#FFFF00" }}>Board</span></h4>
                             <p className="projects-context">
-                                Fooend is an <span style={{ "background-color": "#FFFF00" }}> Android app </span>
-                                that connects users with similar tastes in food and allows them to meet up for a meal. Currently, 
+                                Board is an <span style={{ "background-color": "#FFFF00" }}> mobile app </span>
+                                that finds users different board games that they can play based on some set criteras. Currently, 
                                 this project is a Work in Progress with fellow University of Alberta CS classmates. 
                                 It is currently in the <span style={{ "background-color": "#FFFF00" }}>design phase on Figma</span>. 
-                                This project will be coded using the <span style={{ "background-color": "#FFFF00" }}>Android Studio environment</span>. 
-                                Look forward to new updates in <span style={{ "background-color": "#FFFF00" }}>mid-2021</span>.
+                                This project will be coded using <span style={{ "background-color": "#FFFF00" }}>React Native</span>. 
+                                Come check out our design on  <span style={{ "background-color": "#FFFF00" }}>Figma</span>.
                             </p>
-                            <a href="https://github.com/shistevenyan" target="_blank" className="projectLink"><VscLinkExternal /></a>
+                            <a href="https://www.figma.com/file/7izO2NCfO8OBxONcvnhYoX/BoardGameFinder?node-id=0%3A1" target="_blank" className="projectLink"><VscLinkExternal /></a>
                         </Fade>
                     </Col>
                 </Row>
