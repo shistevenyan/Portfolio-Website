@@ -57,14 +57,14 @@ class Projects extends Component {
                             <br></br>
                             <h4><span style={{ "background-color": "#FFFF00" }}>Board</span></h4>
                             <p className="projects-context">
-                                Board is an <span style={{ "background-color": "#FFFF00" }}> mobile app </span>
-                                that finds users different board games that they can play based on some set criteras. Currently, 
-                                this project is a Work in Progress with fellow University of Alberta CS classmates. 
-                                It is currently in the <span style={{ "background-color": "#FFFF00" }}>design phase on Figma</span>. 
-                                This project will be coded using <span style={{ "background-color": "#FFFF00" }}>React Native</span>. 
-                                Come check out our design on  <span style={{ "background-color": "#FFFF00" }}>Figma</span>.
+                                Board is a <span style={{ "background-color": "#FFFF00" }}> mobile application </span>
+                                that finds users different board games that they can play based on some set critera. This project 
+                                was collaborated with Kenji Au from the University of Alberta. Currently, this project is hosted on Expo Go 
+                                and was designed using <span style={{ "background-color": "#FFFF00" }}>Figma</span>. 
+                                This project was created to learn to code in <span style={{ "background-color": "#FFFF00" }}>React Native</span>. 
+                                Come check out our app on  <span style={{ "background-color": "#FFFF00" }}>Expo</span>.
                             </p>
-                            <a href="https://www.figma.com/file/7izO2NCfO8OBxONcvnhYoX/BoardGameFinder?node-id=0%3A1" target="_blank" className="projectLink"><VscLinkExternal /></a>
+                            <a href="https://expo.io/@shistevenyan/projects/board" target="_blank" className="projectLink"><VscLinkExternal /></a>
                         </Fade>
                     </Col>
                 </Row>
