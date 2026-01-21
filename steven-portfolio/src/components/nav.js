@@ -5,7 +5,7 @@ import { scroller, animateScroll as scroll } from "react-scroll";
 import logo from "../styles/websiteLogo.png";
 import '../styles/nav.scss';
 import Fade from 'react-reveal/Fade';
-import Pdf from "./ShiYanResume2021.pdf";
+import Pdf from "./Resume.pdf";
 
 
 class Navbar extends Component {
